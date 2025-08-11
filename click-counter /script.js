@@ -4,6 +4,6 @@ let increaseCount = 0;
 
 // Add event listner
 btn.addEventListener("clickbtn",function(){
-  increasecount++;
+  increaseCount++;
   count.textContent=increascount;
 });
