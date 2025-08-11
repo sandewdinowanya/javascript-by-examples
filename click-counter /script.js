@@ -1,5 +1,5 @@
 let count = document.getElementById("add");
-let btn = document.getElementById("click");
+let btn = document.getElementById("add");
 let increaseCount = 0;
 
 // Add event listner
