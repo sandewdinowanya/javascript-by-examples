@@ -1,9 +1,9 @@
-let count = document.getElementById("add");
+let count = document.getElementById("count");
 let btn = document.getElementById("add");
 let increaseCount = 0;
 
 // Add event listner
-btn.addEventListener("clickbtn",function(){
+btn.addEventListener("click",function(){
   increaseCount++;
-  count.textContent=increascount;
+  count.textContent=increaseCount;
 });
