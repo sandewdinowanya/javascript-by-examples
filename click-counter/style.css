@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    background-color: greenyellow;
+}
+
+button{
+    background-color: pink;
+    padding: 10px;
+}
