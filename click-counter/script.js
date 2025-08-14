@@ -12,7 +12,3 @@ add.addEventListener("click", function () {
 reset.addEventListener("click",function(){
     value.textContent = 0;
 });
-
-reset.addEventListener("click",function(){
-
-});
