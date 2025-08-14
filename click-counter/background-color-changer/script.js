@@ -1,8 +1,8 @@
 // let colorbtn = document.getElementById("colorbtn");
 let colorvalue = document.getElementById("colorvalue");
 
-let startbutton = document.getElementById("startbutton");
-let endbutton = document.getElementById("endbutton"); 
+let startbutton = document.getElementById("start");
+let endbutton = document.getElementById("end"); 
 
 let intervalId = null;
 
