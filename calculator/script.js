@@ -1,18 +1,17 @@
 function  calculate(operator){
     let num1field = document.getElementById("num1");
     let num2field = document.getElementById("num2");
-    let clear = document.getElementById("clear");
     let result;
 
     let num1 = parseFloat(num1field.value);
     let num2 = parseFloat(num2field.value);
 
-    if(operator === clear){ 
-        num1field.value = '';
-        num2field.value = '';
-        document.getElementById("result").textContent = '';
-        return; 
-    }
+    // if(operator === clear){ 
+    //     num1field.value = '';
+    //     num2field.value = '';
+    //     document.getElementById("result").textContent = '';
+    //     return; 
+    // }
 
     if(isNaN(num1) || isNaN(num2)){
         result = "Please enter both numbers!";
@@ -36,3 +35,10 @@ function  calculate(operator){
     document.getElementById("result").textContent = result;
 
 } 
+    
+let clear = document.getElementById("clear");
+clear.addEventListener("click",function(){
+        document.getElementById("num1").value = '';
+        document.getElementById("num2").value = '';
+        document.getElementById("result").textContent = '';
+});
