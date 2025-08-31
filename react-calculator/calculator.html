@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<script>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+// initializing input values
+let num1 = 0;
+let num2 = 0;
+let result = 0;
+let operator = '';
+
+// getting inputs
+num1 = parseFloat(prompt("Enter first number: "));
+num2 = parseFloat(prompt("Enter second number: "));
+operator = prompt("Enter operator (+,-,*,/): ");
+
+// calculating result
+switch(operator){
+  case '+':
+    result = num1 + num2;
+    break;
+  case '-':
+    result = num1 - num2;
+    break;
+  case '*':
+    result = num1 * num2;
+    break;
+  case '/':
+    result = num2 !== 0 ? num1/num2 : 'Can\'t devided by 0';
+    break;
+  default:
+    result = 0;
+}
+
+alert("Result is " + result);
+
+    </script>
+</body>
+</html>
